@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.Cloister"
-       name="Cloister"
+<addon id="plugin.video.cloister"
+       name="cloister"
        version="0.0.1"
        provider-name="Cl0ister">
   <requires>
