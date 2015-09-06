@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.Cloister"
+       name="Cloister"
+       version="0.0.1"
+       provider-name="Cl0ister">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.urlresolver" version="1.0.0"/>
+	<import addon="plugin.video.youtube" version="2.9.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>dramasonline.com XBMC Client</summary>
+    <description>Cloister Streams Improved</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+</addons>
