@@ -1,17 +1,5 @@
-Version 2.0.2
-* String Fixed
-*****************************************************************
-Version 2.0.1
-* Framework Extended
-*****************************************************************
-Version 2.0.0
-* BugFix Dialog
-*****************************************************************
-Version 1.1.2
-* BugFix
-*****************************************************************
 Version 1.0.2
-* Framework
+* Framework Adapted
 * Multiple Links with <link[i]>(http://yourlink)</link[i]>
 * Subs with <subs>(http://subslink.srt)</subs>
 * EPG for Portugal with <epg-pt>RTP1</epg-pt>
