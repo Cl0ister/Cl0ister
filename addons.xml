@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.cloister"
        name="cloister"
-       version="0.0.1"
+       version="1.0.1"
        provider-name="Cl0ister">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -14,7 +14,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>dramasonline.com XBMC Client</summary>
+    <summary>Cl0oister's Stream Tool</summary>
     <description>Cloister Streams Improved</description>
     <platform>all</platform>
   </extension>
