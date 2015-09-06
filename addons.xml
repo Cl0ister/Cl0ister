@@ -15,7 +15,7 @@
 </addon>
 <addon id="plugin.video.cloister"
        name="Cloister"
-       version="1.1.2"
+       version="2.0.0"
        provider-name="Cl0ister">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
