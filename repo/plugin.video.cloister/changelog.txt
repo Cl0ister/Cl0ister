@@ -1,5 +1,11 @@
+Version 1.1.2
+* BugFix
+*****************************************************************
 Version 1.0.2
-Framework
-************************************
+* Framework
+* Multiple Links with <link[i]>(http://yourlink)</link[i]>
+* Subs with <subs>(http://subslink.srt)</subs>
+* EPG for Portugal with <epg-pt>RTP1</epg-pt>
+*****************************************************************
 Version 1.0.1
-Adaptance
+* Adaptance
