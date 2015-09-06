@@ -20,9 +20,9 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Cloister's Adaptance</summary>
+    <summary>Cl0ister é um addon igual ao liveStreamsPro, adaptado a comunidade Portuguesa.</summary>
     <description>
-        Release
+       	Addon multi funcional para ver vários tipos de vidio de vários formatos e forneçedores.
     </description>
     <platform>all</platform>
   </extension>
