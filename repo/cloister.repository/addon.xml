@@ -1,6 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
-<addon id="cloister.repository" name="cloister.repository" version="1.0.0" provider-name="cl0ister">
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?> <addon id="cloister.repository" name="cloister.repository" version="1.0.0" provider-name="cl0ister">
 
 	<extension point="xbmc.addon.repository" name="Cl0ister Repo">
 
@@ -16,9 +14,9 @@
 		
 	<summary>Repo</summary>
 		
-	<description></description>
+	<description>Repo</description>
 
-		<disclaimer></disclaimer>
+		<disclaimer>Repo</disclaimer>
 	
 		<platform>all</platform>
 
