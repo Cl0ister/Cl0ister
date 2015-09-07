@@ -20,8 +20,8 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Cl0ister e um addon igual ao liveStreamsPro, adaptado a comunidade Portuguesa.</summary>
-    <description>Cl0ister e um addon igual ao liveStreamsPro, adaptado a comunidade Portuguesa.</description>
+    <summary>Cl0ister e um addon igual ao liveStreamsPro adaptado a comunidade Portuguesa.</summary>
+    <description>Cl0ister e um addon igual ao liveStreamsPro adaptado a comunidade Portuguesa.</description>
     <platform>all</platform>
   </extension>
 </addon>

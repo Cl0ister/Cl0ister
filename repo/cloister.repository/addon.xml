@@ -3,6 +3,6 @@
  <info compressed="false">https://raw.githubusercontent.com/Cl0ister/Cl0ister/master/addons.xml</info>   <checksum>https://raw.githubusercontent.com/Cl0ister/Cl0ister/master/addons.xml.md5</checksum>
  <datadir zip="true">https://raw.githubusercontent.com/Cl0ister/Cl0ister/master/repo/</datadir> </extension>    <extension point="xbmc.addon.metadata">
 		<summary>Repo</summary>
-		<description>Repo</description><disclaimer>Repo</disclaimer>
-	<platform>all</platform></extension>
+		<description></description>    <disclaimer></disclaimer>
+	<platform>all</platform>     </extension>     
 </addon>
