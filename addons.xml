@@ -14,8 +14,8 @@
 	</extension>
 </addon>
 <addon id="plugin.video.cloister"
-       name="Cloister"
-       version="1.0.3"
+       name="Cl0ister"
+       version="1.0.4"
        provider-name="Cl0ister">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -27,8 +27,8 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Cl0ister e um addon igual ao liveStreamsPro adaptado a comunidade Portuguesa</summary>
-    <description>Cl0ister e um addon igual ao liveStreamsPro adaptado a comunidade Portuguesa</description>
+    <summary>Cl0ister</summary>
+    <description>Cl0ister</description>
     <platform>all</platform>
   </extension>
 </addon>

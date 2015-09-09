@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.cloister"
-       name="Cloister"
-       version="1.0.3"
-       provider-name="Cloister">
+       name="Cl0ister"
+       version="1.0.4"
+       provider-name="Cl0ister">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -20,8 +20,8 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Cl0ister e um addon igual ao liveStreamsPro adaptado a comunidade Portuguesa.</summary>
-    <description>Cl0ister e um addon igual ao liveStreamsPro adaptado a comunidade Portuguesa.</description>
+    <summary>Cl0ister</summary>
+    <description>Cl0ister</description>
     <platform>all</platform>
   </extension>
 </addon>

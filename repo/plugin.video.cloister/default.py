@@ -51,8 +51,6 @@ icon = os.path.join(home, 'icon.png')
 FANART = os.path.join(home, 'fanart.jpg')
 source_file = os.path.join(profile, 'source_file')
 functions_dir = profile
-print str(home)
-print str(profile)
 
 communityfiles = os.path.join(profile, 'LivewebTV')
 downloader = downloader.SimpleDownloader()
@@ -562,7 +560,6 @@ def getItems(items,fanart):
                                     if not i.string == None:
                                         faststring+= i.string
                                 urlstring+= "#"+faststring
-                                print str(urlstring)
                     except:
                         pass
                     url.append(urlstring)
@@ -2337,24 +2334,36 @@ if not url is None:
     addon_log("Name: "+str(name))
     addon_log("Leg: "+str(legenda))
 
+    if str(name) =="[COLOR=purple] TV Adultos [COLOR gray](Click aqui para aceder aos Canais)[/COLOR]":
+        dialog = xbmcgui.Dialog()
+        d = dialog.input('Insira a Password : ', type=xbmcgui.INPUT_NUMERIC, option=xbmcgui.ALPHANUM_HIDE_INPUT)
+        print d
+        if str(d) <> "69":
+            mode=12
+            xbmc.executebuiltin("XBMC.Notification(Cloister, Password Errada! ,5000,"+icon+")")
+
     fastlinks = []
     link = str(url.encode('utf-8'))
-
+    fastnames = []
     if "#" in link:
         sp = url.encode('utf-8').split('#')
         for i in range(len(sp)):
             fast = str(sp[i])
             fast = fast.replace(";", "", 10)
+            if "|" in fast:
+                fastname = fast.split('|')[1]
+                fastnames.append(fastname)
             fastlinks.append(str(fast))
         dialog = xbmcgui.Dialog()
-        quest = dialog.select('Escolha o Link (1080p;720p;SD) : ', fastlinks)
+        if len(fastnames)>0:
+            quest = dialog.select('Escolha o Link : ', fastnames)
+        else:quest = dialog.select('Escolha o Link : ', fastlinks)
         for i in range(len(fastlinks)):
             if quest ==-1:
                 mode=None
                 url=""
             elif quest == i:
                 url = str(fastlinks[i])
-
 
 if mode==None:
     addon_log("getSources")
@@ -2432,7 +2441,7 @@ elif mode==12:
         xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, item)
         try:
             if len(legenda)>0:
-                xbmc.executebuiltin("XBMC.Notification(Cloister,A Trabalhar nas Legendas,3000,"+icon+")")
+                xbmc.executebuiltin("XBMC.Notification(Cloister, A Trabalhar nas Legendas,4000,"+icon+")")
                 xbmc.sleep(5000)
                 xbmc.Player().setSubtitles(legenda)
         except: pass

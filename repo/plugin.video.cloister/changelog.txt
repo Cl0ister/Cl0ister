@@ -1,3 +1,7 @@
+#Version 1.0.4
+* Adult content Password Protected : [69]
+* Multiple links with name by adding <link>http://link|Your link name</link>
+*****************************************************************
 #Version 1.0.3
 * Update Test
 *****************************************************************
