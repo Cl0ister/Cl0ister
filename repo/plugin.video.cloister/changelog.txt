@@ -1,15 +1,18 @@
+#Version 1.1.1
+* First Release
+****************************************************************************
 #Version 1.0.4
 * Adult content Password Protected : [69]
 * Multiple links with name by adding <link>http://link|Your link name</link>
-*****************************************************************
+****************************************************************************
 #Version 1.0.3
 * Update Test
-*****************************************************************
+****************************************************************************
 #Version 1.0.2
 * Framework Adapted
 * Multiple Links with <link[i]>(http://yourlink)</link[i]>
 * Subs with <subs>(http://subslink.srt)</subs>
 * EPG for Portugal with <epg-pt>RTP1</epg-pt>
-*****************************************************************
+****************************************************************************
 #Version 1.0.1
 * Adaptance
